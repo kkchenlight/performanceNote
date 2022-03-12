@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(opencv)
+find_package(OpenCV REQUIRED)
+include_directories("/Users/kkchen/lib_Self/half-2/include")
+add_executable(opencv main.cpp)
+target_link_libraries(opencv ${OpenCV_LIBS})
