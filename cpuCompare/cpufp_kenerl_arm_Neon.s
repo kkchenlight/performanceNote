@@ -1,4 +1,4 @@
-; // func2.S 每次循环做 40 次乘法，每条指令处理 4 个 float，共 10 条。
+; // func2.S 每次循环做 40 次乘法，每条指令处理 4 个 float，共 10 条。 // source links: https://github.com/Mengjintao/gflops_benchmark
 .text
 .align 5
 .global func2
